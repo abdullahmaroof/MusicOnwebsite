@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px
+}*
+body{
+	background-color: whitesmoke
+}
+
+#main{
+	width: 1402px;
+	height: auto;
+	background-color: blue;
+	margin: 20px 79px;
+	border: 2px solid #000000;
+	font-family: arail;
+	float: left
+}
+
+#header{
+	
+	width: 1400px;
+	height: 160px;
+	background-color: darkred;
+	float: left;
+	border: 1px solid #000000
+}
+
+#logo{
+	width: 300px;
+	height: 80px;
+	margin: 10px 0px 0px 20px;
+	float: left
+}
+
+#searchbar{
+	width: 490px;
+	height: 50px;
+	margin: 25px 20px 0px 0px;
+	float: right;
+}
+
+#searchtext{
+	width: 400px;
+	height: 5px;
+	padding: 20px;
+	font-size: 14px;
+	float: right;
+	margin-top: 5px;
+	border-style: solid
+	
+}
+
+#menubar{
+	width: 1000px;
+	height: 40px;
+	float: right;
+	margin: 20px 200px 0px 0px;
+	z-index: 2;
+	position: relative
+}
+
+ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none
+	
+}
+
+ul li{
+	float: left;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px
+}
+
+ul li a{
+	text-decoration: none;
+	display: block;
+	background-color: whitesmoke;
+	border: 1px solid #000000;
+	color: black
+}
+
+ul li a:hover{
+	background-color: gold
+}
+
+ul li ul li{
+	display: none
+}
+
+ul li:hover ul li{
+	display: block
+}
+
+#content{
+	width: 1400px;
+	height: auto;
+	float: left;
+	background-color: white;
+	border: 1px solid #000000
+}
+
+#aboutus{
+	width: 800px;
+	height: 170px;
+	float: left;
+	margin: 20px 0px 0px 300px;
+	background-color: lightgrey;
+	border: 1px solid #000000
+}
+
+#aboutusheading{
+	width: 800px;
+	height: auto;
+	padding: 10px 0px;
+	text-align: center;
+	font-size: 30px
+}
+
+#aboutusdata{
+	width: 800px;
+	height: auto;
+	padding: 10px 0px;
+	text-align: center;
+	font-size: 20px
+}
+
+#titleheading{
+	width: 500px;
+	height: auto;
+	float: left;
+	margin: 20px 0px 0px 450px;
+	padding: 10px 0px;
+	text-align: center;
+	font-size: 40px;
+	background-color: lightgrey;
+	border: 1px solid #000000
+}
+
+#subheading{
+	width: 1360px;
+	height: auto;
+	float: left;
+	margin: 20px;
+	font-size: 20px;
+	text-align: center;
+	background-color: lightgrey
+}
+
+#songdata{
+	width: 1360px;
+	height: auto;
+	float: left;
+	margin: 20px;
+	font-size: 20px;
+	text-align: center
+}
+
+#headingsongimg{
+	width: 145px;
+	height: auto;
+	float: left;
+	border: 1px solid #000000;
+	padding: 5px 10px 5px 0px;
+}
+
+#headingsongsong{
+	width: 295px;
+	height: auto;
+	float: left;
+	border: 1px solid #000000;
+	padding: 5px 10px
+}
+
+#headingsongname{
+	width: 120px;
+	height: auto;
+	float: left;
+	border: 1px solid #000000;
+	padding: 5px 10px
+}
+
+#headingsongalbum{
+	width: 120px;
+	height: auto;
+	float: left;
+	border: 1px solid #000000;
+	padding: 5px 10px
+}
+
+#headingsingername{
+	width: 245px;
+	height: auto;
+	float: left;
+	border: 1px solid #000000;
+	padding: 5px 10px
+}
+
+#headingsongcompanyname{
+	width: 195px;
+	height: auto;
+	float: left;
+	border: 1px solid #000000;
+	padding: 5px 10px
+}
+
+#headingsongyear{
+	width: 95px;
+	height: auto;
+	float: left;
+	border: 1px solid #000000;
+	padding: 5px 10px 5px 10px
+}
+
+.songimg{
+	width: 150px;
+	height: 150px
+}
+
+.music{
+	width: 300px;
+	height: 150px;
+	padding-left: 20px
+}
+
+.songname{
+	width: 125px;
+	height: 150px;
+	text-align: center;
+	padding-left: 20px;
+	
+}
+
+.songalbum{
+	width: 125px;
+	height: 150px;
+	text-align: center;
+	padding-left: 20px;
+	
+}
+
+.singername{
+	width: 240px;
+	height: 150px;
+	text-align: center;
+	padding-left: 20px;
+	
+}
+
+.songcompany{
+	width: 200px;
+	height: 150px;
+	text-align: center;
+	padding-left: 20px;
+	
+}
+
+.songyear{
+	width: 100px;
+	height: 150px;
+	text-align: center;
+	padding-left: 20px;
+	
+}
+
+#footer{
+	width: 1400px;
+	height: 60px;
+	float: left;
+	border: 1px solid #000000;
+	background-color: darkred
+}
+
+#copyright{
+	width: 450px;
+	height: auto;
+	float: left;
+	padding: 15px 250px;
+	font-size: 25px;
+	
+		
+}
+
+.footerpagelink{
+	width: 100px;
+	height: 40px;
+	float: left;
+	margin: 5px 10px;
+}
+
+#logofb{
+	width: 60px;
+	height: 50px
+}
+
+#logoinsta{
+	width: 60px;
+	height: 40px;
+	padding-top: 5px
+}	
+
+#logoyoutube{
+	width: 60px;
+	height: 50px;
+	
+}	

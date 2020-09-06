@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+} *
+
+body {
+	background-color: whitesmoke
+}
+
+#main {
+	width: 1402px;
+	height: auto;
+	background-color: blue;
+	margin: 20px 79px;
+	border: 2px solid #000000;
+	font-family: arail;
+	float: left
+}
+
+#header {
+	width: 1400px;
+	height: auto;
+	background-color: darkred;
+	float: left;
+	border: 1px solid #000000;
+	padding-bottom: 20px
+}
+
+#logo {
+	width: 300px;
+	height: 80px;
+	margin: 10px 0px 0px 20px;
+	float: left;
+}
+
+#search {
+	width: 490px;
+	height: 50px;
+	margin: 25px 20px 0px 0px;
+	float: right
+}
+
+#searchText {
+	height: 5px;
+	width: 400px;
+	padding: 20px;
+	font-size: 14px;
+	float: right;
+	margin-top: 5px;
+	border-style: solid
+}
+
+#menubar {
+	width: 1000px;
+	height: 40px;
+	float: right;
+	margin: 20px 200px 0px 0px;
+	z-index: 2;
+	position: relative
+	
+}
+
+ul { 
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;	
+}
+
+ul li {
+	float: left;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+
+ul li a {
+	text-decoration: none;
+	display: block;
+	background-color: whitesmoke;
+	border: 1px solid #000000;
+	color: black;
+}
+
+ul li a:hover {	
+	background-color: gold;
+}
+
+ul li ul li {
+	display: none;	
+}
+
+ul li:hover ul li{
+	display: block;	
+}
+
+#content {
+	width: 1400px;
+	height: auto;
+	background-color: white;
+	float: left;
+	border: 1px solid #000000;
+	padding-bottom: 20px
+}
+
+#aboutus {
+	width: 800px;
+	height: auto;
+	margin: 20px 0px 0px 300px;
+	float: left;
+	background-color: lightgrey;
+	border: 1px solid #000000;
+	padding-bottom: 10px
+}
+
+#aboutusheading {
+	width: 800px;
+	height: auto;
+	padding: 10px 0px;
+	text-align: center;
+	font-size: 30px
+}
+
+#aboutusdata {
+	width: 800px;
+	height: auto;
+	padding: 5px 0px;
+	text-align: center;
+	font-size: 20px
+}
+
+.albumblocks {
+	width: 1240px;
+	height: auto;
+	background-color: lightgrey;
+	float: left;
+	margin: 20px 0px 0px 80px;
+	border: 1px solid #000000;
+	padding-bottom: 10px
+}
+
+.ablumsheading {
+	width: 800px;
+	height: auto;
+	font-size: 25px;
+	padding: 5px 0px 5px 20px;
+	float: left
+}
+
+.albumviewall {
+	width: 100px;
+	height: auto;
+	font-size: 20px;
+	float: right;
+	text-align: center;
+	border: 1px groove #000000;
+	background-color: whitesmoke;
+	margin: 5px 20px 0px 0px;
+	border-radius: 20px;
+	padding: 5px 0px;
+}
+
+.albumviewall a {
+	text-decoration: none;
+	color: black
+}
+
+.albumsong {
+	width: 1200px;
+	height: 230px;
+	float: left;
+	background-color: white;
+	margin: 10px 20px;
+}
+
+.albumsongimg {
+	width: 198px;
+	height: 228px;
+	float: left;
+	border: 1px solid #000000;
+}
+
+#footer {
+	width: 1400px;
+	height: 60px;
+	background-color: darkred;
+	border: 1px solid #000000;
+	float: left
+}
+
+#copyright {
+	width: 450px;
+	height: auto;
+	font-size: 25px;
+	padding: 15px 250px;
+	float: left
+}
+
+.footerpagelink {
+	width: 100px;
+	height: 40px;
+	margin: 5px 10px;
+	float: left;
+}
+
+#logoyoutube {
+	width: 60px;
+	height: 50px
+}
+
+#logoinsta {
+	width: 60px;
+	height: 40px;
+	padding: 5px 0px 0px;
+}
+
+#logofb {
+	width: 60px;
+	height: 50px
+}
+
